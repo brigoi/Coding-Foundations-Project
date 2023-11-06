@@ -1,0 +1,88 @@
+/* Common header styless */
+.header {
+    height: 60px;
+
+    background-color: black;
+    /* Flexbox container */
+    display: flex;
+    /* probando */
+    /* justify-content:space-between; */ 
+    justify-content: left;
+    align-items: center;
+    padding: 10px;
+}
+
+/* probando */
+.header div:last-child{
+    margin-left: auto;
+}
+
+
+/* Logo image styles */
+.header > .logo img{
+    width: 150px;
+    height: 100%;
+    padding: 0px 10px;
+}
+
+/* Navigation bar styles */
+.header > .nav-bar {
+    display: flex;
+    flex-direction: column;
+    padding-left: 30px;
+}
+
+.header > .nav-bar > .heading {
+    color: rgb(244, 225, 135);
+    font-size: 0.8rem;
+}
+
+.header > .nav-bar > .nav-bar-items-wrapper {
+    display: flex;
+    justify-items:space-between;
+    font-size: 0.9rem;
+}
+
+.header > .nav-bar > .nav-bar-items-wrapper > .nav-links {
+    display: flex;
+    font-weight: 900;
+}
+
+.header > .nav-bar > .nav-bar-items-wrapper > .nav-links > .nav-link{
+    padding-right: 10px;
+}
+
+.header > .nav-bar > .nav-bar-items-wrapper > .dropdown-menu{
+    padding-left: 15px;
+    width: 80px;
+    color: rgb(172, 172, 172);
+    font-weight: 600; 
+}
+
+.header > .nav-bar > .nav-bar-items-wrapper > .dropdown-menu > .icon {
+    padding-left: 10px;
+    font-size: 0.7rem;
+}
+
+/* Header buttons styles */
+.header > .header-buttons {
+    display: flex;
+    font-size: 0.9rem;
+}
+
+.header > .header-buttons > .button {
+    display: flex;
+    align-items: center;
+    background-color: rgb(54, 56, 63);
+}
+
+.header > .header-buttons > .button > .icon {
+    padding-left: 7px;
+    color: rgb(75, 206, 121);
+}
+
+.header > .header-buttons > .icon {
+    padding: 10px;
+    font-size: 1.5rem;
+    color: rgb(123, 126, 139);
+}
